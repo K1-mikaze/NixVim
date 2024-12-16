@@ -6,7 +6,7 @@
       key = "<C-n>";
     }
     {
-      action = "<cmd>:Telescope live_grep<CR>";
+      action = "<cmd>:Telescope live_grep theme=dropdown<CR>";
       key = "<leader>fa";
     }
     {
@@ -19,39 +19,35 @@
     }
     # new actions
     { 
-      action =  "<cmd>:lua require('telescope.builtin').lsp_references()<CR>";
+      action =  "<cmd>:lua require('telescope.builtin').lsp_references(require('telescope.themes').get_cursor({}))<CR>";
       key = "<leader>lc";
     }
     { 
-      action =  "<cmd>:lua require('telescope.builtin').lsp_document_symbols()<CR>";
-      key = "<leader>lf";
-    }
-    { 
-      action =  "<cmd>:lua require('telescope.builtin').diagnostics()<CR>";
+      action =  "<cmd>:lua require('telescope.builtin').diagnostics(require('telescope.themes').get_dropdown({}))<CR>";
       key = "<leader>le";
     }
     { 
-      action =  "<cmd>:lua require('telescope.builtin').lsp_definitions()<CR>";
+      action =  "<cmd>:lua require('telescope.builtin').lsp_definitions(require('telescope.themes').get_cursor({}))<CR>";
       key = "<leader>ld";
     }
     { 
-      action =  "<cmd>:lua require('telescope.builtin').lsp_implementations()<CR>";
+      action =  "<cmd>:lua require('telescope.builtin').lsp_implementations(require('telescope.themes').get_cursor({}))<CR>";
       key = "<leader>li";
     }
     { 
-      action =  "<cmd>:lua require('telescope.builtin').lsp_type_definitions()<CR>";
+      action =  "<cmd>:lua require('telescope.builtin').lsp_type_definitions(require('telescope.themes').get_dropdown({}))<CR>";
       key = "<leader>lt";
     }
     { 
-      action =  "<cmd>:lua require('telescope.builtin').git_commits()<CR>";
+      action =  "<cmd>:lua require('telescope.builtin').git_commits(require('telescope.themes').get_ivy({}))<CR>";
       key = "<leader>gc";
     }
     { 
-      action =  "<cmd>:lua require('telescope.builtin').git_branches()<CR>";
+      action =  "<cmd>:lua require('telescope.builtin').git_branches(require('telescope.themes').get_ivy({}))<CR>";
       key = "<leader>gb";
     }
     { 
-      action =  "<cmd>:lua require('telescope.builtin').git_status()<CR>";
+      action =  "<cmd>:lua require('telescope.builtin').git_status(require('telescope.themes').get_ivy({}))<CR>";
       key = "<leader>gs";
     }
     { 
