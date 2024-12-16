@@ -1,4 +1,4 @@
-{self, ...}:{
+{ ...}:{
 
 
 plugins = {
@@ -12,6 +12,8 @@ plugins = {
       nixd.enable = true;
       pyright.enable = true;
       ruff.enable = true;
+      eslint.enable = true;
+      statix.enable = true;
     };
   };
 
@@ -20,8 +22,14 @@ plugins = {
     lspServersToEnable = "all";
   };
 
-  
+  lsp-signature = { 
+    
+    enable = true;
+    
   };
+
+  
+                };
 }
 
 

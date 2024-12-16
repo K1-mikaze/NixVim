@@ -1,10 +1,11 @@
 {
   plugins = {
     telescope.enable = true;
-
     neo-tree.enable = true;
-
     web-devicons.enable= true;
+    lualine.enable = true;
+    nvim-autopairs.enable = true;
+    render-markdown.enable = true;
 
     treesitter = {
       enable = true;
@@ -18,13 +19,12 @@
           "css"
           "html"
           "javascript"
+          "markdown"
+          "markdown_inline"
         ];
         highlight.enable = true;
       };
     };
-
-    lualine.enable = true;
-    nvim-autopairs.enable = true;
 
 
     cmp = {  
@@ -51,5 +51,17 @@
       };
 
     };
+  
+  none-ls = {
+    enable = true;
+    enableLspFormat = true;
+    sources = {
+      code_actions.statix.enable = true;
+      diagnostics.statix.enable = true;
+    };   
+  };
+
+
+
   };
 }

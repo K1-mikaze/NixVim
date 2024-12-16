@@ -1,4 +1,6 @@
   {self, ...}: {
+
+  clipboard.register = "unnamedplus";
   globalOpts = {
     # Line numbers
     number = true;
@@ -19,7 +21,7 @@
     shiftwidth = 2;
     softtabstop = 2;
     expandtab = true;
-    smarttab = true;
+    smarttab = false;
 
     # Save undo history
     undofile = true;
