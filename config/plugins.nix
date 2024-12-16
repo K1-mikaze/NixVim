@@ -5,7 +5,7 @@
     web-devicons.enable= true;
     lualine.enable = true;
     nvim-autopairs.enable = true;
-    render-markdown.enable = true;
+    markview.enable = true;
 
     treesitter = {
       enable = true;
