@@ -6,6 +6,8 @@
     lualine.enable = true;
     nvim-autopairs.enable = true;
     markview.enable = true;
+    mini.enable = true;
+
 
     treesitter = {
       enable = true;
