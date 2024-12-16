@@ -56,7 +56,7 @@
     }
     { 
       action =  "<cmd>:lua require('telescope.builtin').treesitter(require('telescope.themes').get_ivy({}))<CR>";
-      key = "<leader>vt";
+      key = "<C-t>";
     }
 
 
