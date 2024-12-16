@@ -20,43 +20,43 @@
     # new actions
     { 
       action =  "<cmd>:lua require('telescope.builtin').lsp_references()<CR>";
-      key = "<leader>lr";
+      key = "<leader>xr";
     }
     { 
       action =  "<cmd>:lua require('telescope.builtin').lsp_document_symbols()<CR>";
-      key = "<leader>lf";
+      key = "<leader>xf";
     }
     { 
       action =  "<cmd>:lua require('telescope.builtin').diagnostics()<CR>";
-      key = "<leader>le";
+      key = "<leader>xe";
     }
     { 
       action =  "<cmd>:lua require('telescope.builtin').lsp_definitions()<CR>";
-      key = "<leader>ld";
+      key = "<leader>zd";
     }
     { 
       action =  "<cmd>:lua require('telescope.builtin').lsp_implementations()<CR>";
-      key = "<leader>li";
+      key = "<leader>zi";
     }
     { 
       action =  "<cmd>:lua require('telescope.builtin').lsp_type_definitions()<CR>";
-      key = "<leader>lt";
+      key = "<leader>zt";
     }
     { 
       action =  "<cmd>:lua require('telescope.builtin').git_commits()<CR>";
-      key = "<leader>gc";
+      key = "<leader>zc";
     }
     { 
       action =  "<cmd>:lua require('telescope.builtin').git_branches()<CR>";
-      key = "<leader>gb";
+      key = "<leader>zb";
     }
     { 
       action =  "<cmd>:lua require('telescope.builtin').git_status()<CR>";
-      key = "<leader>gs";
+      key = "<leader>zs";
     }
     { 
       action =  "<cmd>:lua require('telescope.builtin').treesitter(require('telescope.themes').get_ivy({}))<CR>";
-      key = "<leader>tv";
+      key = "<leader>vt";
     }
 
 
