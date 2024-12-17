@@ -2,7 +2,7 @@
   
   keymaps = [ 
     {
-      action = "<cmd>Neotree filesystem reveal right toggle<CR>";
+      action = "<cmd>NvimTreeToggle<CR>";
       key = "<C-n>";
     }
     {

@@ -1,9 +1,10 @@
 {
   # Import all your configuration modules here
   imports = [ 
+
+              ./settings.nix
               ./plugins.nix
               ./keymaps.nix
-              ./settings.nix
               ./lsps.nix
   ];
   
@@ -14,5 +15,8 @@
     };
     enable = true;
   };
+
+  
+
 }
     

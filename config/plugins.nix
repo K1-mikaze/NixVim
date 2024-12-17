@@ -1,7 +1,17 @@
 {
   plugins = {
     telescope.enable = true;
-    neo-tree.enable = true;
+    nvim-tree = {
+    diagnostics.enable = true;
+      enable = true;
+      view = {
+        relativenumber = false;
+        number = false;
+        float.enable = true;
+      };
+
+
+    };
     web-devicons.enable= true;
     lualine.enable = true;
     nvim-autopairs.enable = true;

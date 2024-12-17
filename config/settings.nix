@@ -1,10 +1,9 @@
   {self, ...}: {
 
   clipboard.register = "unnamedplus";
+
+
   globalOpts = {
-    # Line numbers
-    number = true;
-    relativenumber = true;
 
     # Always show the signcolumn, otherwise text would be shifted when displaying error icons
     signcolumn = "yes";
@@ -20,7 +19,7 @@
     tabstop = 2;
     shiftwidth = 2;
     softtabstop = 2;
-    expandtab = true;
+    expandtab = false;
     smarttab = false;
 
     # Save undo history
@@ -40,6 +39,9 @@
   };
 
   globals.mapleader = " ";
+  globalOpts.number = true;
+  globalOpts.relativenumber = true;
+
 
 }
   
