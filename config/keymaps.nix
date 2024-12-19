@@ -54,6 +54,10 @@
       action =  "<cmd>:lua require('telescope.builtin').treesitter(require('telescope.themes').get_ivy({}))<CR>";
       key = "<leader>tt";
     }
+    { 
+      action =  "<cmd>Telescope buffers theme=dropdown<CR>";
+      key = "<C-b>";
+    }
 
 
   ];
