@@ -55,7 +55,7 @@
       key = "<leader>tt";
     }
     { 
-      action =  "<cmd>Telescope buffers theme=dropdown<CR>";
+      action =  "<cmd>Telescope buffers theme=ivy<CR>";
       key = "<C-b>";
     }
 
