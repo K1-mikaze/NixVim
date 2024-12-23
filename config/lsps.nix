@@ -10,11 +10,11 @@ plugins = {
       clangd.enable = true;
       html.enable = true;
       nixd.enable = true;
-      pyright.enable = true;
+      pylsp.enable = true;
       ruff.enable = true;
       eslint.enable = true;
       statix.enable = true;
-    };
+			};
   };
 
   lsp-format = {
