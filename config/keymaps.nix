@@ -58,6 +58,10 @@
       action =  "<cmd>Telescope buffers theme=ivy<CR>";
       key = "<C-b>";
     }
+    { 
+      action =  "<cmd>set rnu<CR>";
+      key = "<leader>n";
+    }
 
 
   ];
