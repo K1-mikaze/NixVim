@@ -55,12 +55,17 @@
       key = "<leader>tt";
     }
     { 
+			mode ="n";
       action =  "<cmd>Telescope buffers theme=ivy<CR>";
-      key = "<C-b>";
+      key = "<Tab>";
     }
     { 
       action =  "<cmd>set rnu<CR>";
       key = "<leader>n";
+    }
+    { 
+      action =  "<cmd>setlocal spell spelllang=en_us<CR>";
+      key = "<leader>ns";
     }
 
 
