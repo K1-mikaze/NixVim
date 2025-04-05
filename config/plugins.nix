@@ -18,6 +18,7 @@
     markview.enable = true;
     mini.enable = true;
 		notify.enable = true;
+		noice.enable = true;
 
     treesitter = {
       enable = true;
@@ -33,6 +34,8 @@
           "javascript"
           "markdown"
           "markdown_inline"
+					"vim"
+					"regex"
         ];
         highlight.enable = true;
       };
