@@ -19,6 +19,7 @@
     mini.enable = true;
 		notify.enable = true;
 		noice.enable = true;
+		nui.enable = true;
 
     treesitter = {
       enable = true;
