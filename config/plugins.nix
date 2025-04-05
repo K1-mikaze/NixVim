@@ -17,7 +17,7 @@
     nvim-autopairs.enable = true;
     markview.enable = true;
     mini.enable = true;
-
+		notify.enable = true;
 
     treesitter = {
       enable = true;

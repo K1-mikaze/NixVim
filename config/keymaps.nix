@@ -3,7 +3,7 @@
   keymaps = [ 
     {
       action = "<cmd>NvimTreeToggle<CR>";
-      key = "<C-n>";
+			key= "<C-n>";
     }
     {
       action = "<cmd>:Telescope live_grep theme=dropdown<CR>";
@@ -67,8 +67,6 @@
       action =  "<cmd>setlocal spell spelllang=en_us<CR>";
       key = "<leader>ns";
     }
-
-
   ];
 
 } 
