@@ -17,9 +17,13 @@
     nvim-autopairs.enable = true;
     markview.enable = true;
     mini.enable = true;
-		notify.enable = true;
 		noice.enable = true;
 		nui.enable = true;
+		notify = {
+			enable = true;
+			  backgroundColour = "#000000";
+			
+		};
 
     treesitter = {
       enable = true;
