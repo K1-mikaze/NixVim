@@ -23,6 +23,14 @@
 			enable = true;
 			  settings.background_colour = "#000000";
 		};
+		flutter-tools= {
+			enable = true;
+			settings = {
+			widgetGuides = { enabled = true;};
+			debugger = { enabled = true;};
+			};
+		};
+
     treesitter = {
       enable = true;
       settings = {
