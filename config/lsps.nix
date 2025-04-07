@@ -1,4 +1,4 @@
-{ pkgs,inputs,... }:{
+{ ... }:{
 
 
 plugins = {
@@ -14,7 +14,6 @@ plugins = {
       ruff.enable = true;
       eslint.enable = true;
       statix.enable = true;
-			dartls.enable = true;
 			};
   };
 
