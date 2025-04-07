@@ -21,9 +21,9 @@
 		nui.enable = true;
 		notify = {
 			enable = true;
-			  backgroundColour = "#000000";
-			
+			  settings.background_colour = "#000000";
 		};
+		flutter-tools.enable = true;
 
     treesitter = {
       enable = true;
