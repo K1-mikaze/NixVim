@@ -35,5 +35,6 @@
 - Show line numbers **Space + n**
 - Show relative line numbers **Space + n + r**
 - Active Grammar checker **Space + n + s**
+    - To look the possible correction use **z=**
 
 
