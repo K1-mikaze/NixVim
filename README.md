@@ -1,18 +1,39 @@
-# Nixvim template
+#  **Nixvim Keybindings**
 
-This template gives you a good starting point for configuring nixvim standalone.
+## File Management
 
-## Configuring
+- Toggle File Tree **Ctrl + n** 
 
-To start configuring, just add or modify the nix files in `./config`.
-If you add a new configuration file, remember to add it to the
-[`config/default.nix`](./config/default.nix) file
+- Fuzzy Search Words **Space + f + a**
 
-## Testing your new configuration
+- Fuzzy Search Files **Space + f + f**
 
-To test your configuration simply run the following command
+- Save File **Ctrl + s**
 
-```
-nix run .
-```
-# NixVim
+## Code Actions
+
+- Look for references **Space + l + c**
+
+- Look for diagnostics **Space + l + e**
+
+- Look for definitions **Space + l + d**
+
+- Look for type definitions **Space + l + t**
+
+- Look for implementations **Space + l + i**
+
+## Git Actions
+
+- Show Git status **Space + g + s**
+
+- Show Git commits **Space + g + c**
+
+- Show Git branches **Space + g + b**
+
+### Others 
+    
+- Show line numbers **Space + n**
+- Show relative line numbers **Space + n + r**
+- Active Grammar checker **Space + n + s**
+
+
