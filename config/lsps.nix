@@ -3,7 +3,6 @@
 
 plugins = {
   lsp = {
-
     enable = true;
     servers = {
       ts_ls.enable = true;
@@ -13,7 +12,6 @@ plugins = {
       pylsp.enable = true;
       ruff.enable = true;
       eslint.enable = true;
-      statix.enable = true;
 			dartls.enable = true;
 			};
   };
@@ -24,9 +22,7 @@ plugins = {
   };
 
   lsp-signature = { 
-    
     enable = true;
-    
   };
 
   

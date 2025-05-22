@@ -27,7 +27,6 @@
 
     # Highlight the current line for cursor
     cursorline = true;
-
     # Show line and column when searching
     ruler = true;
 
